@@ -1,0 +1,16 @@
+# 9. Faça um programa que leia a idade de uma pessoa e classifique-a como:
+# • De 0 a 12 anos → "Criança"
+# • De 13 a 17 anos → "Adolescente"
+# • De 18 a 59 anos → "Adulto"
+# • 60 anos ou mais → "Idoso"
+# Estrutura obrigatória: if / elif / else.
+
+idade = int(input("Informe sua idade"))
+if idade <= 12:
+    print("Criança")
+elif idade <= 17:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
